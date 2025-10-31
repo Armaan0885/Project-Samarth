@@ -14,8 +14,9 @@ crop_df = None
 def load_data():
     global rainfall_df, crop_df
     try:
-        rainfall_df = pd.read_csv('data/rainfall.csv')
-        crop_df = pd.read_csv('data/crop_production.csv')
+        BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+        rainfall_df = pd.read_csv(os.path.join(BASE_DIR, 'data', 'rainfall.csv'))
+        crop_df = pd.read_csv(os.path.join(BASE_DIR, 'data', 'crop_production.csv'))
         print("✓ Data loaded successfully!")
         print(f"  - Rainfall records: {len(rainfall_df)}")
         print(f"  - Crop production records: {len(crop_df)}")
@@ -23,6 +24,7 @@ def load_data():
         print(f"✗ Error loading data: {e}")
         rainfall_df = pd.DataFrame()
         crop_df = pd.DataFrame()
+
 
 def parse_question(question):
     question_lower = question.lower()
