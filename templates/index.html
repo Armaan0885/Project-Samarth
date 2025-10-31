@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Samarth - Agriculture & Climate Q&A</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-content">
+                <div class="header-top">
+                    <div class="title-section">
+                        <h1 class="title">🌾 Project Samarth</h1>
+                        <p class="subtitle">Intelligent Q&A for India's Agriculture & Climate Data</p>
+                    </div>
+                    <div class="language-selector">
+                        <label for="languageSelect">🌐 Language:</label>
+                        <select id="languageSelect" class="language-dropdown">
+                            <option value="auto">Auto-Detect</option>
+                            <option value="en">English</option>
+                            <option value="hi">हिंदी (Hindi)</option>
+                            <option value="ta">தமிழ் (Tamil)</option>
+                            <option value="te">తెలుగు (Telugu)</option>
+                            <option value="bn">বাংলা (Bengali)</option>
+                            <option value="mr">मराठी (Marathi)</option>
+                            <option value="gu">ગુજરાતી (Gujarati)</option>
+                            <option value="kn">ಕನ್ನಡ (Kannada)</option>
+                            <option value="ml">മലയാളം (Malayalam)</option>
+                            <option value="pa">ਪੰਜਾਬੀ (Punjabi)</option>
+                            <option value="or">ଓଡ଼ିଆ (Odia)</option>
+                            <option value="as">অসমীয়া (Assamese)</option>
+                            <option value="ur">اردو (Urdu)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="chat-container" id="chatContainer">
+            <div class="welcome-message">
+                <div class="welcome-icon">🌱</div>
+                <h2>Welcome to Project Samarth!</h2>
+                <p>Ask me questions about India's agriculture and climate data. I can help you with:</p>
+                <ul class="features-list">
+                    <li>📊 Rainfall comparisons between states</li>
+                    <li>🌾 Top crop production rankings</li>
+                    <li>📈 Agricultural trends and statistics</li>
+                    <li>🗺️ State-wise climate analysis</li>
+                </ul>
+                <div class="example-questions">
+                    <p class="example-title">Try asking:</p>
+                    <div class="example-item" onclick="askExample(this)">Compare rainfall in Maharashtra and Karnataka</div>
+                    <div class="example-item" onclick="askExample(this)">Top 5 cereals in Punjab</div>
+                    <div class="example-item" onclick="askExample(this)">Average rainfall in Kerala for the last 10 years</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="input-container">
+            <form id="chatForm" class="chat-form">
+                <input 
+                    type="text" 
+                    id="userInput" 
+                    class="chat-input" 
+                    placeholder="Ask about agriculture, crops, or rainfall data..." 
+                    autocomplete="off"
+                    required
+                />
+                <button type="submit" class="send-button" id="sendButton">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M22 2L11 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M22 2L15 22L11 13L2 9L22 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+State,Year,Crop,Category,Production_Tonnes,Area_Hectares,Source
+Maharashtra,2023,Rice,Cereal,3250000,1450000,MoA
+Maharashtra,2023,Wheat,Cereal,1580000,950000,MoA
+Maharashtra,2023,Jowar,Cereal,2100000,1320000,MoA
+Maharashtra,2023,Bajra,Cereal,890000,680000,MoA
+Maharashtra,2023,Maize,Cereal,1240000,820000,MoA
+Maharashtra,2023,Sugarcane,Cash Crop,85600000,1050000,MoA
+Maharashtra,2023,Cotton,Cash Crop,6200000,4100000,MoA
+Maharashtra,2023,Soybean,Pulses,4800000,3850000,MoA
+Maharashtra,2023,Groundnut,Oilseed,750000,480000,MoA
+Maharashtra,2023,Tur,Pulses,980000,650000,MoA
+Karnataka,2023,Rice,Cereal,3850000,1320000,MoA
+Karnataka,2023,Ragi,Cereal,1950000,980000,MoA
+Karnataka,2023,Maize,Cereal,3420000,1280000,MoA
+Karnataka,2023,Jowar,Cereal,1680000,1050000,MoA
+Karnataka,2023,Wheat,Cereal,520000,380000,MoA
+Karnataka,2023,Sugarcane,Cash Crop,45200000,480000,MoA
+Karnataka,2023,Coffee,Cash Crop,380000,420000,MoA
+Karnataka,2023,Cotton,Cash Crop,2850000,950000,MoA
+Karnataka,2023,Groundnut,Oilseed,680000,520000,MoA
+Karnataka,2023,Sunflower,Oilseed,420000,350000,MoA
+Tamil Nadu,2023,Rice,Cereal,6850000,1950000,MoA
+Tamil Nadu,2023,Sugarcane,Cash Crop,105800000,3850000,MoA
+Tamil Nadu,2023,Cotton,Cash Crop,1280000,520000,MoA
+Tamil Nadu,2023,Groundnut,Oilseed,1350000,680000,MoA
+Tamil Nadu,2023,Maize,Cereal,2680000,850000,MoA
+Tamil Nadu,2023,Bajra,Cereal,580000,320000,MoA
+Tamil Nadu,2023,Ragi,Cereal,950000,480000,MoA
+Tamil Nadu,2023,Turmeric,Spice,1120000,95000,MoA
+Tamil Nadu,2023,Chilli,Spice,280000,120000,MoA
+Tamil Nadu,2023,Coconut,Plantation,6800000000,420000,MoA
+Punjab,2023,Wheat,Cereal,18500000,3520000,MoA
+Punjab,2023,Rice,Cereal,13200000,3080000,MoA
+Punjab,2023,Maize,Cereal,280000,95000,MoA
+Punjab,2023,Bajra,Cereal,85000,52000,MoA
+Punjab,2023,Cotton,Cash Crop,1580000,380000,MoA
+Punjab,2023,Sugarcane,Cash Crop,6800000,95000,MoA
+Punjab,2023,Rapeseed,Oilseed,950000,620000,MoA
+Punjab,2023,Sunflower,Oilseed,52000,38000,MoA
+Punjab,2023,Potato,Vegetable,2850000,120000,MoA
+Punjab,2023,Onion,Vegetable,185000,18000,MoA
+Uttar Pradesh,2023,Wheat,Cereal,32500000,9850000,MoA
+Uttar Pradesh,2023,Rice,Cereal,15800000,5850000,MoA
+Uttar Pradesh,2023,Sugarcane,Cash Crop,185000000,2350000,MoA
+Uttar Pradesh,2023,Potato,Vegetable,15200000,580000,MoA
+Uttar Pradesh,2023,Bajra,Cereal,480000,320000,MoA
+Uttar Pradesh,2023,Maize,Cereal,2850000,950000,MoA
+Uttar Pradesh,2023,Barley,Cereal,1680000,680000,MoA
+Uttar Pradesh,2023,Mustard,Oilseed,2950000,850000,MoA
+Uttar Pradesh,2023,Mango,Fruit,4850000,280000,MoA
+Uttar Pradesh,2023,Guava,Fruit,950000,52000,MoA
+Rajasthan,2023,Bajra,Cereal,3850000,5280000,MoA
+Rajasthan,2023,Wheat,Cereal,8500000,2850000,MoA
+Rajasthan,2023,Mustard,Oilseed,3200000,2580000,MoA
+Rajasthan,2023,Barley,Cereal,1850000,1120000,MoA
+Rajasthan,2023,Gram,Pulses,1280000,850000,MoA
+Rajasthan,2023,Maize,Cereal,850000,480000,MoA
+Rajasthan,2023,Jowar,Cereal,420000,380000,MoA
+Rajasthan,2023,Cotton,Cash Crop,1950000,520000,MoA
+Rajasthan,2023,Groundnut,Oilseed,580000,420000,MoA
+Rajasthan,2023,Cumin,Spice,280000,680000,MoA
+West Bengal,2023,Rice,Cereal,15800000,5480000,MoA
+West Bengal,2023,Jute,Cash Crop,8500000,680000,MoA
+West Bengal,2023,Wheat,Cereal,980000,420000,MoA
+West Bengal,2023,Potato,Vegetable,11200000,420000,MoA
+West Bengal,2023,Maize,Cereal,420000,180000,MoA
+West Bengal,2023,Mustard,Oilseed,1280000,680000,MoA
+West Bengal,2023,Sugarcane,Cash Crop,2850000,120000,MoA
+West Bengal,2023,Tea,Plantation,380000,158000,MoA
+West Bengal,2023,Tobacco,Cash Crop,52000,28000,MoA
+West Bengal,2023,Onion,Vegetable,280000,52000,MoA
+Kerala,2023,Coconut,Plantation,5850000000,780000,MoA
+Kerala,2023,Rubber,Plantation,680000,580000,MoA
+Kerala,2023,Rice,Cereal,580000,210000,MoA
+Kerala,2023,Banana,Fruit,3850000,58000,MoA
+Kerala,2023,Cashew,Plantation,95000,120000,MoA
+Kerala,2023,Pepper,Spice,58000,180000,MoA
+Kerala,2023,Cardamom,Spice,28000,85000,MoA
+Kerala,2023,Coffee,Cash Crop,75000,95000,MoA
+Kerala,2023,Tea,Plantation,58000,52000,MoA
+Kerala,2023,Ginger,Spice,185000,28000,MoA
